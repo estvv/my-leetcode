@@ -7,7 +7,7 @@ class Solution:
             if i > j:
                 return False
             if p[j] == '.':
-                
+
             if p[j] != s[i] and p[j] != '.':
                 return False
             i += 1
